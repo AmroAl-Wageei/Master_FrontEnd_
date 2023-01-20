@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    background: #dfe9f5;
+}
+
+.Form_login {
+    width: 330px;
+    padding: 4rem 2rem;
+    margin: 13% 44%;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.Form_register {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 10% 44%;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+
+button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(17, 107, 143);
+}
+
+button:hover {
+    /* background: rgba(17, 107, 143, 0.877); */
+    background: #288876;
+}
+
+input:focus {
+    border:1px solid rgb(192, 192, 192);
+}
+
+.term {
+
+    margin-top: 0.2rem;
+}
+
+.term input {
+    height: 1rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+
+.term label {
+    font-size: 0.7rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #288876;
+    opacity: 0.5;
+}
+
+input[type=checkbox]:checked + label::before{
+    background-color: #288876;
+    color: #ff0a0a;
+}
+
+
+.term a {
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+
+.term input {
+    color: #288876;
+
+}
+
+.member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+
+.member a {
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+
+.recover {
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+
+.recover a {
+    text-decoration: none;
+    color: #464646;
+}

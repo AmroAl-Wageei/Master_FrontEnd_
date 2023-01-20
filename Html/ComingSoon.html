@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <title> Main Page </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="./image/HAMD.png" type="image/icon type">
+    
+      <!-- Link CSS -->
+      <link rel="stylesheet" href="./CSS/land.css">
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/3692f58ddc.js" crossorigin="anonymous"></script>
+      <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+</head>
+<style>
+
+    body {
+        font-family             : 'Annie Use Your Telescope', cursive;
+        background-image        : url('../img/header/Soon/Soonn.png');
+        background-position     : center;
+        background-size         : cover;
+        background-repeat       : no-repeat;
+        width                   : 100%;
+        min-height              : 100vh;
+        font-size               : 14px;
+        display                 : flex;
+        justify-content         : center;
+        align-items             : center;
+        color                   : aliceblue;
+    }
+/* 
+    body::after {
+
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(65, 59, 59, 0.9);
+    } */
+
+
+    .page-content {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        margin-bottom: 32px;
+        text-transform: uppercase;
+        font-size: 7em;
+        letter-spacing: 3px;
+        font-weight: bold;
+        -webkit-text-fill-color: #1a564b;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    .title::before {
+
+        content: "";
+        position:absolute;
+        left:0;
+        top:9%;
+        -webkit-text-fill-color: rgb(255, 0, 0);
+        transition: 0.5s;
+        width: 90%;
+        overflow: hidden;
+    }
+
+ .title:hover:before {
+    content: attr(text-data);
+    width: 100%;
+}
+  
+    .subtitle {
+        font-size: 1.5em;
+        letter-spacing: 0.5px;
+        margin-bottom: 48px;
+    }
+
+    .counter_list_container {
+        width : 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+        justify-content: space-evenly;
+
+    }
+    .container_item {
+        border : 1px solid rgba(255 255, 255, 0.4);
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_item:last-child {
+        margin-right: 0;
+    }
+
+    .time_number {
+        font-size : 2.5em;
+        margin-bottom: 4px;
+    }
+    .time_unite {
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        font-size: 0.8em;
+        color : #206A5D;
+        font-size : 1.2em;
+        font-weight:900
+
+    }
+    .subsscribe {
+        width : 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .subsscribe input , .subsscribe button {
+            border: none;
+            outline: none;
+            padding: 20px 32px;
+            border-radius: 32px;
+            margin : 16px;
+        }
+
+        .subsscribe input {
+            flex: 1;
+            color:#206A5D;
+            font-size: 1.3em;
+        }
+        .subsscribe button {
+            text-transform: uppercase;
+            letter-spacing: 0.2px;
+            font-weight: bold;
+            background-color: #206A5D;
+            color: aliceblue;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .subsscribe button:hover {
+            background-color:#1F4068;
+        }
+
+
+</style>
+<body>
+
+<div class="page-content"> 
+
+
+    <p class="title" data-text="COMING SOON"> COMING SOON</p>
+    <p class="subtitle"> Something brillant comin soon , We are reachable at Hello@Shandaqdental.com</p>
+
+        <div class="counter_list_container">
+            <div class="container_item">
+                <p class="time_number" id="days">35</p>
+                <p class="time_unite">days</p>
+            </div>
+
+            <div class="container_item">
+                <p class="time_number" id="hours">11</p>
+                <p class="time_unite">hours</p>
+            </div>
+
+            <div class="container_item">
+                <p class="time_number" id="minute">55</p>
+                <p class="time_unite">minute</p>
+            </div>
+
+            <div class="container_item">
+                <p class="time_number" id="second">23</p>
+                <p class="time_unite">second</p>
+            </div>
+        </div>
+
+
+        <form action="#" method="post" class="subsscribe">
+            <input type="email" placeholder="Enter Your Email">
+            <button type="submit" value=""> Subscribe </button>
+        </form>
+
+
+</div>
+                
+<script src="../JS/ComingSoon.js"> </script>
+
+</body>
+</html>
