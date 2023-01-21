@@ -2,7 +2,7 @@
 # Front-End 
 
 
-####Done
+-> Done
 
 ##### 1. Coming Soon Page 
 ##### 2. Home Page
@@ -14,7 +14,7 @@
 ##### 8. Register Page
 
 
-#### Doing
+-> Doing
 
 ##### 1. Services Page 
 ##### 2. Admin Dashboard
