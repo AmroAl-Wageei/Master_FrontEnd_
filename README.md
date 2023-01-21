@@ -1,11 +1,11 @@
 
 # Front-End 
 
-##### 1.Coming Soon Page 
-##### Home Page
-##### About Us Page
-##### Contact Us Page
-##### Artical Page
-##### Book Appoinment Page
-##### Login Page
-##### Register Page
+##### 1. Coming Soon Page 
+##### 2. Home Page
+##### 3. About Us Page
+##### 4. Contact Us Page
+##### 5. Artical Page
+##### 6. Book Appoinment Page
+##### 7. Login Page
+##### 8. Register Page
