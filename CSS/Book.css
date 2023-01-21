@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dosis', sans-serif !important;
 }
 
-
+html {
+    scroll-behavior:smooth;
+} 
 /* ################################################################ */
 
 
@@ -30,12 +31,13 @@
 }
 .second_nav .name a:hover {
     color: #3c74a9;
-
+    transition: 0.5s;
 }
 .second_nav .name a  {
     font-weight: 600;
     font-size: 13px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .second_nav .social {
@@ -49,6 +51,7 @@
 }
 .second_nav .social a:hover {
     color: #3c74a9;
+    transition: all 0.5s;
 }
 
 /* End Second Nav  */
@@ -318,7 +321,7 @@ button:hover {
 
 
 .all-text h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 18px;
     color: #777777;
     letter-spacing: 1px;
@@ -332,7 +335,7 @@ button:hover {
     margin-bottom: 70px;
 }
 .all-text p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 16px;
     color: #777777;
     line-height: 30px;
@@ -354,25 +357,28 @@ button:hover {
     position: fixed;
     bottom: 100px;
     right: -70px;
-    background-color: #206A5D;
+    /* background-color: #206A5D; */
+    background-color: #74a7a1;
     color: #DDD;
     font-weight: bold;
     font-size: 20px;
-    padding: 7px;
-    border-radius: 4px;
+    /* padding: 10px;
+    border-radius: 50%; */
     font-family: Arial,Tahoma;
     cursor: pointer;
+    border-radius: 50%;
 
  }
 
- .up img{
-    width: 100px;
-    height: 70px;
-
+ .up i{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 25% 0 0 0;
  }
 
  .up.show {
-    right: 35px;
+    right: 32px;
  }
   /* End Scroll UP */
 
@@ -411,7 +417,7 @@ button:hover {
 .footer {
     background-color: #24262b;
     padding: 70px 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 .cont_footer {
@@ -499,7 +505,7 @@ button:hover {
     font-weight: 100;
     letter-spacing: 1.8;
     line-height: 1.5;
-    font-family: 'Grey Qo', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .col_footer .qouat_footer span {
@@ -526,7 +532,7 @@ button:hover {
     font-size: 13px;
     text-transform: capitalize;
     word-spacing: 5px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
     background-color: #24262b;
     color: #ffffff;
 }
@@ -536,7 +542,7 @@ button:hover {
     opacity: 2;
     font-weight: 700;
     font-size:smaller;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Dosis', sans-serif;
     color: #348677;
 }
 

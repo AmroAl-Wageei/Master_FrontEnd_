@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dosis', sans-serif !important;
 }
+
+html {
+    scroll-behavior:smooth;
+}
+
+
+
 
 
 /*  Fixed Nav  */
@@ -91,12 +97,14 @@
 }
 .second_nav .name a:hover {
     color: #3c74a9;
+    transition: 0.5s;
 
 }
 .second_nav .name a  {
     font-weight: 600;
     font-size: 13px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .second_nav .social {
@@ -104,9 +112,14 @@
     text-align: 15px;
     justify-content: center;
     justify-content: space-evenly;
+    margin-left: 10px;
 }
 .second_nav .social a {
     color: #ffffff;
+    transition: all 0.5s;
+}
+.second_nav .social a i {
+    font-size: 15px;
 }
 .second_nav .social a:hover {
     color: #3c74a9;
@@ -383,25 +396,28 @@ img {
     position: fixed;
     bottom: 100px;
     right: -70px;
-    background-color: #206A5D;
+    /* background-color: #206A5D; */
+    background-color: #74a7a1;
     color: #DDD;
     font-weight: bold;
     font-size: 20px;
-    padding: 7px;
-    border-radius: 4px;
+    /* padding: 10px;
+    border-radius: 50%; */
     font-family: Arial,Tahoma;
     cursor: pointer;
+    border-radius: 50%;
 
  }
 
- .up img{
-    width: 100px;
-    height: 70px;
-
+ .up i{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 25% 0 0 0;
  }
 
  .up.show {
-    right: 35px;
+    right: 32px;
  }
   /* End Scroll UP */
 
@@ -446,7 +462,7 @@ img {
     margin-bottom: 25px;
 }
 .icon_breif:hover {
-    background: #000;
+    background: rgb(87, 80, 80);
     transition: .5s;
 }
 .icon_breif i {
@@ -461,12 +477,12 @@ img {
 .single_brief h2 {
     margin-bottom: 5px;
     font-size: 15px;
-    font-family:poppins;
+    font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
 }
 .single_brief p {
     font-size: 14px;
-    font-family:poppins;
+    font-family: 'Dosis', sans-serif;
 }
 .single_brief {
     width: 25%;
@@ -523,8 +539,8 @@ img {
 }
 
 .all-text h4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
     color: #777777;
     letter-spacing: 1px;
     font-weight: 400;

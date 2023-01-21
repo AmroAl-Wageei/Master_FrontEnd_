@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dosis', sans-serif !important;
+}
+html {
+    scroll-behavior:smooth;
 }
 
 /* ################################################################ */
@@ -26,12 +28,13 @@
 }
 .second_nav .name a:hover {
     color: #3c74a9;
-
+    transition: 0.5s;
 }
 .second_nav .name a  {
     font-weight: 600;
     font-size: 13px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .second_nav .social {
@@ -45,6 +48,7 @@
 }
 .second_nav .social a:hover {
     color: #3c74a9;
+    transition: all 0.5s;
 }
 
 /* End Second Nav  */
@@ -243,8 +247,8 @@ nav img {
 }
 
 .all-text h4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
     color: #777777;
     letter-spacing: 1px;
     font-weight: 400;
@@ -319,6 +323,7 @@ nav img {
     display: grid;
     grid-template-columns: auto auto;
     margin: 50px 0 80px 0;
+    font-family: 'Dosis', sans-serif;
 }
 
 .story img {
@@ -337,13 +342,13 @@ nav img {
     color: #1F4068;
     font-weight: 800;
     font-size: 21px;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Dosis', sans-serif;
     margin-bottom: 15px;
 
 }
 
 #about2 {
-    color: #26e5c2;
+    color: #74a7a1;
     font-weight: 800;
     
 }
@@ -353,11 +358,11 @@ nav img {
     font-weight: 800;
     font-size: medium;
     margin-top: 10px;
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Dosis', sans-serif;
 margin-bottom: 25px;
 }
 .about4 {
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: 1.5;
     line-height: 1.2;
     margin-bottom: 15px;
@@ -368,15 +373,14 @@ margin-bottom: 25px;
 }
 #drname {
 
-    color: #26e5c2;
+    color: #74a7a1;
     font-weight: 700;
     letter-spacing: 1.5;
     margin-top: 40px;
-    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 #drpos {
-    font-family: 'Annie Use Your Telescope', cursive;
+    font-family: 'Dosis', sans-serif;
 
 }
 
@@ -730,25 +734,28 @@ margin-bottom: 25px;
     position: fixed;
     bottom: 100px;
     right: -70px;
-    background-color: #206A5D;
+    /* background-color: #206A5D; */
+    background-color: #74a7a1;
     color: #DDD;
     font-weight: bold;
     font-size: 20px;
-    padding: 7px;
-    border-radius: 4px;
+    /* padding: 10px;
+    border-radius: 50%; */
     font-family: Arial,Tahoma;
     cursor: pointer;
+    border-radius: 50%;
 
  }
 
- .up img{
-    width: 100px;
-    height: 70px;
-
+ .up i{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 25% 0 0 0;
  }
 
  .up.show {
-    right: 35px;
+    right: 32px;
  }
   /* End Scroll UP */
 
@@ -784,11 +791,13 @@ margin-bottom: 25px;
     background-color: #24262b;
     padding: 70px 0;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif !important;
 }
 
 .cont_footer {
     max-width: 1170px;
     margin: auto;
+    
 }
 .row_footer {
     display: flex;
@@ -871,7 +880,7 @@ margin-bottom: 25px;
     font-weight: 100;
     letter-spacing: 1.8;
     line-height: 1.5;
-    font-family: 'Grey Qo', cursive;
+    font-family: 'Dosis', sans-serif;
 }
 
 .col_footer .qouat_footer span {
@@ -901,6 +910,7 @@ margin-bottom: 25px;
     font-family: 'Poppins', sans-serif;
     background-color: #24262b;
     color: #ffffff;
+    font-family: 'Dosis', sans-serif !important;
 }
 
 .footer-botoom span {
@@ -910,6 +920,7 @@ margin-bottom: 25px;
     font-size:smaller;
     font-family: 'Annie Use Your Telescope', cursive;
     color: #348677;
+    font-family: 'Dosis', sans-serif !important;
 }
 
 /* End Footer  */
