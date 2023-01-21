@@ -1,0 +1,917 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif !important;
+}
+
+/* ################################################################ */
+
+
+/* Second Nav  */
+
+.second_nav {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background: #394146;
+}
+.second_nav .name {
+    font-weight: 500;
+    font-size: 9px;
+    color: #ffffff;
+}
+.second_nav .name a:hover {
+    color: #3c74a9;
+
+}
+.second_nav .name a  {
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.second_nav .social {
+    font-weight: 600;
+    text-align: 15px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.second_nav .social a {
+    color: #ffffff;
+}
+.second_nav .social a:hover {
+    color: #3c74a9;
+}
+
+/* End Second Nav  */
+
+
+/* Nav main */
+
+.nav_main {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    /* background: rgba(203, 40, 40, 0.2); */
+    background:rgba(#b5d1f5, 0, 0, 0.8);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color:#3c74a9;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.register a,button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+    text-decoration: none;
+    cursor: pointer;
+}
+.register button {
+    /* background: rgba(255, 255, 255, 0.2); */
+    border: 2px solid #2c3e50;
+    border-radius: 50px;
+    padding: 9px 25px;
+    border: none;
+}
+nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover {
+    color: #3c74a9;
+    transition: all 0.3 ease 0s;
+}
+.register button:hover {
+    background-color: #3498db;
+    transition: all 0.3 ease 0s;
+}
+.register #SignUp  {
+    background-color: #3498db;
+}
+
+/* End Nav main */
+
+/* ################################################################ */
+
+
+
+.header {
+    min-height: 70vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('../img/AboutUs/Header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+nav img {
+    width: 60px;
+}
+
+.nav_livk ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin: 0 10px;
+}
+.nav_livk ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav_livk ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #00999c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav_livk ul li:hover:after {
+    width: 100%;
+}
+
+.text_header_book {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text_header_book h1 {
+    font-size: 62px;
+}
+.text_header_book h1 span {
+    color:#74a7a1;
+}
+.text_header_book p span {
+    color:#74a7a1;
+    font-weight: 600;
+}
+.text_header_book p {
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.actionnn_btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    /* position: relative; */
+    cursor: pointer;
+}
+.actionnn_btn:hover {
+    background-color: #74a7a1;
+    border: 1px solid #74a7a1;
+    transition: 1s;
+}
+
+
+/* ################################################################ */
+
+
+/* About Dr  */
+.about_dr {
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_dr img {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+.all-text {
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.main_dr {
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.all-text h1 {
+    font-size: 50px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.all-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.btn_dr button {
+    background: white;
+    padding: 20px 32px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    border: none;
+    outline: none;
+    box-shadow: 0px 16px 32px 0px rgb(0 0 0 / 6%);
+    margin-right: 20px;
+}
+.btn_dr button:hover {
+    background-color: #608ea5;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn_dr .btn2 {
+    background-color: #111111;
+    color: white;
+}
+
+@media screen and (max-width:1250px) {
+    .about_dr {
+        height: auto;
+        width: 100%;
+        padding: 60px 0;
+    }
+    .all-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main_dr img  {
+        margin-bottom: 35px;
+    }
+    .all-text h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}
+
+/* About Dr  */
+
+
+/* ################################################################ */
+
+
+
+.story {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px 0 80px 0;
+}
+
+.story img {
+    width: 70%;
+    margin-left: 50px;
+}
+.ss {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 20px 0 0 0;
+}
+
+#about1 {
+    color: #1F4068;
+    font-weight: 800;
+    font-size: 21px;
+    font-family: 'Annie Use Your Telescope', cursive;
+    margin-bottom: 15px;
+
+}
+
+#about2 {
+    color: #26e5c2;
+    font-weight: 800;
+    
+}
+
+#about3 {
+    color: #1F4068;
+    font-weight: 800;
+    font-size: medium;
+    margin-top: 10px;
+    font-family: 'Annie Use Your Telescope', cursive;
+margin-bottom: 25px;
+}
+.about4 {
+    font-weight: 800;
+    letter-spacing: 1.5;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.about4 ul li {
+    margin-bottom: 7px;
+
+}
+#drname {
+
+    color: #26e5c2;
+    font-weight: 700;
+    letter-spacing: 1.5;
+    margin-top: 40px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+#drpos {
+    font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+/* ################################################################ */
+
+
+
+  /*  Vission  */
+
+
+  .vission {
+    display: grid;
+    margin-bottom: 60px;
+}
+.vission_name {
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+}
+.vission_name h3::after {
+    content: "";
+    background: #74a7a1;
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.vission_name h3 i {
+    font-size: 30px;
+    color:#74a7a1 ;
+}
+
+.vission_body {
+    display: grid;
+    grid-template-columns: 40% 40%; 
+    margin: 10% 0%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.mission2 {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    justify-content: space-between;
+}
+
+.mission2 .img .one {
+    float: left;
+}
+.mission2 .img .two {
+    margin-left: 100%;
+}
+.mission2 .img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #74a7a1;
+}
+.mission1 {
+    margin-top: 50px;
+}
+
+.mission1 .part1 {
+    margin-bottom: 100px;
+}
+.mission1 .part1 h2 {
+    margin-bottom: 15px;
+    color: #74a7a1;
+}
+.mission1 .part1,.part2 p {
+    color: #777777;
+}
+.mission1 .part2 h2 {
+    margin-bottom: 15px;
+    color: #74a7a1;
+}
+
+  /*  Vission  */
+
+
+
+/* ################################################################ */
+
+
+/*  Our Team  */
+
+.our_team {
+    margin: 10px 0 0 5%;
+    color: rgb(0, 0, 0);
+}
+.heading {
+    font-size: 20px;
+    color:#608ea5;
+    text-align: center;
+    font-style: italic;
+    margin: 0px 0 40px 0;
+    margin-bottom: 100px;
+}
+.heading span {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.heading span::after {
+    content: "";
+    background: #74a7a1;
+    width: 200px;
+    height: 5px;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.profiless {
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px;
+}
+.profile {
+    flex-basis: 260px;
+    margin-right: 30px;
+}
+.profile .profile_img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: 400ms;
+}
+.profile:hover .profile_img {
+    filter: grayscale(0%);
+}
+.usename {
+    margin-top: 30px;
+    font-weight: 35px;
+}
+.profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #111111;
+}
+.profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:1150px) {
+    .profiless {
+        flex-direction: column;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p {
+        font-size: 20px;
+        margin: 20px 60px 80px 60px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .heading {
+        font-size: 40px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .heading span {
+        font-size: 15px;
+    }
+    .profiless {
+        margin: 20px 0;
+    }
+    .profile p {
+        margin: 20px 10px 80px 10px;
+    }
+}
+/*  Our Team  *
+
+/* ################################################################ */
+
+
+
+
+
+
+/* HAPPY CLIENT */
+.happy_client {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px , 2fr));
+    justify-content: center;
+    grid-gap: 40px;
+    margin-left: 200px;
+    margin-top: 150px;
+} 
+
+.happy_client .main_client {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.happy_client .main_client h2 {
+    font-size: 40px;
+}
+.happy_client .main_client h2 span {
+    color: #74a7a1;
+}
+
+.happy_client .main_client h4 {
+    font-size: 16px;
+}
+
+.happy_client .card {
+    width: 270px;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.1);
+    /* box-shadow: 1px 1px 1px #5681b5,
+                -1px -1px 1px #18463e; */
+    border-radius: 20px;
+}
+
+.happy_client .card .card_img img {
+    width: 80px;
+    height: 80px;
+    margin: 50px 0 30px 30%;
+    border-radius: 50%;
+    /* box-shadow : 0 0 0 3px #ffb108; */
+}
+
+#item_color {
+    color: #74a7a1;
+    margin:0 10px 0 5px;
+}
+
+.happy_client .card .para {
+    text-align: left;
+    letter-spacing: 1.3;
+    line-height: 1.2;
+    margin: 0 15px;
+}
+
+/* HAPPY CLIENT */
+
+
+
+/* ################################################################ */
+
+
+/* Gallery  */
+
+/* Slides Section  */
+
+.container_slide_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sliderr {
+    width: 50%;
+    height: 50vh;
+    background:url('../img/header/callToAction.jpg');
+    margin: 10% 0%;
+    animation: slide 10s infinite;
+    border-radius: 20px;
+}
+.sliderr1 {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.sliderr1 h2 {
+    font-size: 50px;
+    margin-top: 150px;
+    color: #608ea5;
+}
+.sliderr1 p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dott span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid rgb(56, 158, 155);
+    margin : 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+@keyframes slide {
+
+    25%{
+        background:url('../img/header/About/AboutDr.jpg');
+    }
+    50%{
+        background:url('../img/header/About/NewPatient.jpg');
+    }
+
+    75%{
+        background:url('../img/header/About/vission.jpg');
+    }
+    100%{
+        background:url('../img/header/About/vission1.png');
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container_slide_about {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .sliderr {
+        width: 80vw;
+        margin: 0 10%;
+    }
+    .sliderr1 {
+       text-align: center;
+    }
+    .dott span{
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+/* End Slides Section  */
+
+
+
+/* ################################################################ */
+
+
+
+ /* Scroll UP */
+
+ .up {
+    position: fixed;
+    bottom: 100px;
+    right: -70px;
+    background-color: #206A5D;
+    color: #DDD;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    font-family: Arial,Tahoma;
+    cursor: pointer;
+
+ }
+
+ .up img{
+    width: 100px;
+    height: 70px;
+
+ }
+
+ .up.show {
+    right: 35px;
+ }
+  /* End Scroll UP */
+
+
+
+   /* Scroll bar */
+
+ ::-webkit-scrollbar {
+    width: 7px;
+ }
+ ::-webkit-scrollbar-track {
+    background-color: #f6f6f6;
+    box-shadow: 0,0,10px,#DDD inset;
+ }
+ ::-webkit-scrollbar-thumb {
+    background-color: #206A5D;
+    border-radius: 0px;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+    background-color: #1F4068;
+ }
+
+  /* End Scroll bar */
+
+  /* ################################################################ */
+
+
+
+  
+/* Footer  */
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont_footer {
+    max-width: 1170px;
+    margin: auto;
+}
+.row_footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_footer {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col_footer h4 {
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.col_footer h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #5d85b7;
+    box-sizing: border-box;
+    height: 2px;
+    width: 50px;
+}
+.col_footer ul {
+    list-style: none;
+}
+.col_footer ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.col_footer ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* color: #ffffff; */
+    font-weight: 300;
+    display: block;
+    color: #bbbbbb;
+    transition: 0.3s;
+}
+
+.col_footer ul li a:hover {
+    color:#ffffff;
+    padding-left: 7px;
+}
+
+.col_footer ul li span {
+    font-size: 9px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.col_footer .socail_footer a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px ;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.col_footer .socail_footer a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.col_footer .qouat_footer {
+    margin-top: 30px;
+    color:#ffffff ;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 1.8;
+    line-height: 1.5;
+    font-family: 'Grey Qo', cursive;
+}
+
+.col_footer .qouat_footer span {
+    color: #26e5c2;
+    font-size: x-large;
+}
+
+@media (max-width:767px) {
+    .col_footer {
+        width: 50%;
+        margin-bottom: 30px;  
+  }
+}
+@media (max-width:574px) {
+    .col_footer {
+        width: 100%;
+  }
+}
+
+.footer-botoom {
+    text-align: center;
+    width: 99.5vw;
+    padding: 10px 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #24262b;
+    color: #ffffff;
+}
+
+.footer-botoom span {
+    text-transform: uppercase;
+    opacity: 2;
+    font-weight: 700;
+    font-size:smaller;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #348677;
+}
+
+/* End Footer  */
+
+/* ################################################################ */
