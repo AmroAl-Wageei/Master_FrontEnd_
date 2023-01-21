@@ -11,6 +11,5 @@
 
 -> Doing
 
-##### 1. Services Page 
-##### 2. Admin Dashboard
+##### 1. Services Page ,  2. Admin Dashboard
 
