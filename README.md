@@ -8,6 +8,7 @@
 ##### 3. About Us Page      , 4. Contact Us Page
 ##### 5. Artical Page       , 6. Book Page
 ##### 7. Login Page         , 8. Register Page
+##### 9. Profile Page 
 
 
 
@@ -17,6 +18,6 @@
 
 -> Doing
 
-##### 1. Services Page   , 2. Profile Page 
-##### 3. Admin Dashboard , 4. LOGO 
+##### 1. Services Page  , 2. Admin Dashboard 
+##### 3. LOGO 
 
