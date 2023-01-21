@@ -759,6 +759,23 @@ img {
 
 }
 
+@media (max-width: 1250px) {
+    .Clinic {
+        width: 50%
+    }
+    
+    .Clinic h1 {
+        font-size: 20px;
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(500px , 1fr);
+    }
+    
+}
+
+
+
 /* End Clinic */
 
 /* ################################################################ */

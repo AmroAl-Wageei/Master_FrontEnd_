@@ -540,7 +540,7 @@ nav img {
     color: rgb(3, 3, 3);
 }
 .info_box:hover i  {
-    color: rgb(3, 3, 3);
+    color: white;
 }
 .contact_info span {
  display: block;
