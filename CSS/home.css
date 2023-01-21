@@ -380,6 +380,7 @@ img {
 }
 .icon_breif:hover {
     background: #000;
+    transition: .5s;
 }
 .icon_breif i {
     color: #000;
@@ -388,6 +389,7 @@ img {
 }
 .icon_breif i:hover {
     color: #ffffff;
+    transition: .5s;
 }
 .single_brief h2 {
     margin-bottom: 5px;
@@ -413,6 +415,7 @@ img {
 .single_brief:hover {
     background:#406a62;
     color: #fff;
+    transition: .5s;
 }
 
 
