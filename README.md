@@ -1,6 +1,9 @@
 
 # Front-End 
 
+
+####Done
+
 ##### 1. Coming Soon Page 
 ##### 2. Home Page
 ##### 3. About Us Page
@@ -9,3 +12,10 @@
 ##### 6. Book Appoinment Page
 ##### 7. Login Page
 ##### 8. Register Page
+
+
+#### Doing
+
+##### 1. Services Page 
+##### 2. Admin Dashboard
+
