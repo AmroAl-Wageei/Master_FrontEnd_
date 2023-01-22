@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Font Awesome 5 fixed  -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- JQUERY  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
     <style>
 
@@ -36,27 +38,41 @@
 </head>
 <body>
     
-
-        <!--  Fixed  -->
-    
-        <div class="fixed_nav">
-            <ul>
-                <li><a href="#">
-                     <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
-                </a></li>
-                <li><a href="#">
-                     <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
-                </a></li>
-                <li><a href="#">
-                     <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
-                </a></li>
-                <li><a href="#">
-                     <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
-                </a></li>
-            </ul>
+	<!--PreLoader-->
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="circle"></div>
         </div>
-        
-        <!--  End Fixed  -->
+    </div>
+    <!--PreLoader Ends -->
+    
+
+
+
+
+
+
+<!--  Fixed  -->
+
+<div class="fixed_nav">
+    <ul>
+        <li><a href="#">
+                <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
+        </a></li>
+        <li><a href="#">
+                <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
+        </a></li>
+        <li><a href="#">
+                <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
+        </a></li>
+        <li><a href="#">
+                <i class="fa-duotone fa-phone-volume"></i> <span> Call Now </span>
+        </a></li>
+    </ul>
+</div>
+
+<!--  End Fixed  -->
+
 
 <!--  Nav Bar  -->
 
@@ -97,6 +113,8 @@
 <!--  Nav Bar  -->
 
 
+
+<!--  Header Slider   -->
 
     <div class="slider">
 
@@ -140,6 +158,8 @@
         </div>
     
     </div>
+
+<!--  Header Slider   -->
 
 
 
@@ -189,7 +209,7 @@
             <h1>A certified dental surgeon locally and internationally.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit quis consequuntur alias? Debitis tempore minima suscipit corrupti corporis, doloremque optio placeat nihil ab ad dolore deserunt voluptatem est soluta.</p>
             <div class="btn_dr">
-                <button type="button"> Our Team </button>
+                <a href="./Html/AboutUs.html"></a><button type="button"> Our Team </button>
                 <button type="button" class="btn2"> Learn More </button>
             </div>
         </div>
@@ -611,6 +631,14 @@
 
 <script src="JS/slider.js"> </script>
 <script src="JS/scrollUp.js"> </script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+
+$(window).load(function(){
+    $(".loader").fadeOut(2000);
+});
+
+</script> -->
 
 </body>
 </html>
